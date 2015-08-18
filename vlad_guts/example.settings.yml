@@ -21,11 +21,16 @@
 #  - 'www.example.com'
 
 # Vagrantfile configuration
-  boxipaddress: "192.168.100.100"
-  boxname: "vlad"
-  host_synced_folder: "./docroot"
+  boxipaddress: "192.168.100.76"
+  boxname: "crukdev2"
+  host_synced_folder: "./website/cruk/docroot"
 # or on Windows
 #  host_synced_folder: "C:\\docroot"
+  
+#my settings
+  vm_cpus: 1
+  vm_memory: 1024
+  synced_folder_type: nfs
 
 # Install components:
 # - To install a component set it to true.
