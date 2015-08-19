@@ -23,7 +23,7 @@
 # Vagrantfile configuration
   boxipaddress: "192.168.100.76"
   boxname: "crukdev2"
-  host_synced_folder: "./website/cruk/docroot"
+  host_synced_folder: "./cruk/docroot"
 # or on Windows
 #  host_synced_folder: "C:\\docroot"
   
